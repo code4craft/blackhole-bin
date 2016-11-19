@@ -2,7 +2,7 @@
 #
 # Syntax:
 #		address		domain	[type]
-# like: 127.0.0.1	codecraft.us
+# like:176.183.50.33	iCloud.com
 #	Char "*" matches all chars with any length.
 #	Lines starting with "#" will be considered as comments.
 #	Type field is optional.Line without type will be considered supporting all types. 
@@ -10,13 +10,13 @@
 #
 # Samples:
 # 
-#	127.0.0.1	codecraft.us
-#		response all domain query end with "codecraft.us" to 127.0.0.1
+#	176.183.50.33	iCloud.com
+#		response all domain query end with "iCloud.com" to 176.183.50.33
 #
-#	127.0.0.1	*
-#		response all query with all domain to 127.0.0.1
+#	176.183.50.33	*
+#		response all query with all domain to 176.183.50.33
 #
-#	127.0.0.1	flashsword20.*.*
+#	176.183.50.33	flashsword20.*.*
 #		response all query like "flashsword20.diandian.com" "flashsword20.github.com"
 #       NS      8.8.8.8         *.google.com
 #               use 8.8.8.8 as the dns server for *.google.com
